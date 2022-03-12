@@ -1,0 +1,29 @@
+{
+  "name": "archui-components",
+  "version": "1.0.0",
+  "description": "This is component library build to house components that can be used in website construction.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel *.js *.css package.json --out-dir ../dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosidocks/archui-components.git"
+  },
+  "keywords": [
+    "component-library"
+  ],
+  "author": "Nosipho Ndlovu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosidocks/archui-components/issues"
+  },
+  "homepage": "https://github.com/nosidocks/archui-components#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
